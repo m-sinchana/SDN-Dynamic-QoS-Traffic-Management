@@ -1,0 +1,46 @@
+{
+  "source_csv": "heavy_congestion_qos.csv",
+  "timestamp": 1793520530.5357494,
+  "classes": {
+    "voice": {
+      "class_name": "voice",
+      "port": "5001",
+      "throughput_mbps": 0.064,
+      "loss_percentage": 0.0,
+      "avg_latency_ms": 11.4,
+      "jitter_ms": 0.82,
+      "packets_received": 750,
+      "packets_lost": 0
+    },
+    "video": {
+      "class_name": "video",
+      "port": "5002",
+      "throughput_mbps": 2.48,
+      "loss_percentage": 0.8,
+      "avg_latency_ms": 18.2,
+      "jitter_ms": 3.45,
+      "packets_received": 9076,
+      "packets_lost": 0
+    },
+    "bulk": {
+      "class_name": "bulk",
+      "port": "5003",
+      "throughput_mbps": 1.98,
+      "loss_percentage": 34.0,
+      "avg_latency_ms": 115.0,
+      "jitter_ms": 32.0,
+      "packets_received": 2121,
+      "packets_lost": 0
+    },
+    "congestion_flooder": {
+      "class_name": "congestion_flooder",
+      "port": "5004",
+      "throughput_mbps": 4.31,
+      "loss_percentage": 46.0,
+      "avg_latency_ms": 138.0,
+      "jitter_ms": 48.0,
+      "packets_received": 4627,
+      "packets_lost": 0
+    }
+  }
+}

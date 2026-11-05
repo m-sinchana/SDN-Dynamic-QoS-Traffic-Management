@@ -1,0 +1,36 @@
+[
+  {
+    "class_name": "voice",
+    "port": 5001,
+    "packets_received": 2450,
+    "packets_expected": 2500,
+    "packets_lost": 50,
+    "loss_percentage": 2.0,
+    "packet_delivery_ratio": 0.98,
+    "bytes_received": 490000,
+    "duration_sec": 30.0,
+    "throughput_mbps": 0.13,
+    "instant_throughput_mbps": 0.13,
+    "avg_latency_ms": 12.4,
+    "min_latency_ms": 8.1,
+    "max_latency_ms": 18.2,
+    "jitter_ms": 1.2
+  },
+  {
+    "class_name": "video",
+    "port": 5002,
+    "packets_received": 9800,
+    "packets_expected": 10000,
+    "packets_lost": 200,
+    "loss_percentage": 2.0,
+    "packet_delivery_ratio": 0.98,
+    "bytes_received": 9800000,
+    "duration_sec": 30.0,
+    "throughput_mbps": 2.61,
+    "instant_throughput_mbps": 2.61,
+    "avg_latency_ms": 22.5,
+    "min_latency_ms": 15.0,
+    "max_latency_ms": 35.0,
+    "jitter_ms": 3.1
+  }
+]

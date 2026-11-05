@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+.venv/
+venv/
+.env
+.DS_Store
+results/live_*_status.json
+results/web_server.log

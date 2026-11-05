@@ -1,0 +1,110 @@
+[
+  {
+    "id": "EXP-20261101-082115",
+    "timestamp": 1793521275.453822,
+    "date": "2026-11-01 08:21:15 UTC",
+    "preset": "moderate",
+    "mode": "FIFO",
+    "duration": 20.0,
+    "bottleneck_bw_mbps": 10.0,
+    "congestion_threshold_pct": 80.0,
+    "background_flooder": false,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261101-081901",
+    "timestamp": 1793521141.537354,
+    "date": "2026-11-01 08:19:01 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 10.0,
+    "bottleneck_bw_mbps": 1.0,
+    "congestion_threshold_pct": 80.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261101-081854",
+    "timestamp": 1793521134.771144,
+    "date": "2026-11-01 08:18:54 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 20.0,
+    "bottleneck_bw_mbps": 10.0,
+    "congestion_threshold_pct": 80.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261101-081828",
+    "timestamp": 1793521108.071349,
+    "date": "2026-11-01 08:18:28 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 5.0,
+    "bottleneck_bw_mbps": 5.0,
+    "congestion_threshold_pct": 80.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261101-080850",
+    "timestamp": 1793520530.463058,
+    "date": "2026-11-01 08:08:50 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 20.0,
+    "bottleneck_bw_mbps": 10.0,
+    "congestion_threshold_pct": 80.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261031-201721",
+    "timestamp": 1793477841.2088945,
+    "date": "2026-10-31 20:17:21 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 18.0,
+    "bottleneck_bw_mbps": 4.0,
+    "congestion_threshold_pct": 82.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261031-201710",
+    "timestamp": 1793477830.6570606,
+    "date": "2026-10-31 20:17:10 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 18.0,
+    "bottleneck_bw_mbps": 8.5,
+    "congestion_threshold_pct": 82.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261031-201520",
+    "timestamp": 1793477720.0988762,
+    "date": "2026-10-31 20:15:20 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 18.0,
+    "bottleneck_bw_mbps": 8.5,
+    "congestion_threshold_pct": 82.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  },
+  {
+    "id": "EXP-20261031-200955",
+    "timestamp": 1793477395.3354902,
+    "date": "2026-10-31 20:09:55 UTC",
+    "preset": "moderate",
+    "mode": "QOS",
+    "duration": 20.0,
+    "bottleneck_bw_mbps": 10.0,
+    "congestion_threshold_pct": 80.0,
+    "background_flooder": true,
+    "status": "COMPLETED"
+  }
+]
