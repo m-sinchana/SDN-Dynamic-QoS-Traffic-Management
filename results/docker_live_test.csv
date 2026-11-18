@@ -1,0 +1,5 @@
+class_id,class_name,port,packets_received,packets_expected,packets_lost,loss_percentage,packet_delivery_ratio,bytes_received,duration_sec,throughput_kbps,throughput_mbps,instant_throughput_mbps,avg_latency_ms,min_latency_ms,max_latency_ms,jitter_ms,out_of_order,corrupt_packets
+1,voice,5001,1239,1239,0,0.0,1.0,198240,24.76,64.05,0.064,0.064,14.51,12.14,26.44,0.86,0,0
+2,video,5002,0,0,0,0.0,1.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+3,bulk,5003,0,0,0,0.0,1.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0
+4,congestion_flooder,5004,0,0,0,0.0,1.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0

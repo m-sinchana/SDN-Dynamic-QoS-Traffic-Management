@@ -1,0 +1,4 @@
+class_name,port,packets_sent,packets_received,loss_percentage,throughput_kbps,throughput_mbps,avg_latency_ms,min_latency_ms,max_latency_ms,jitter_ms
+voice,5001,750,750,0.0,64.0,0.064,10.5,10.1,11.8,0.35
+video,5002,3660,3660,0.0,1000.0,1.0,11.0,10.2,13.0,0.78
+bulk,5003,1070,1070,0.0,1000.0,1.0,11.4,10.3,13.9,0.88

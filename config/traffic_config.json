@@ -1,0 +1,66 @@
+{
+  "classes": {
+    "voice": {
+      "class_id": 1,
+      "description": "VoIP / Voice traffic (small, frequent, real-time)",
+      "port": 5001,
+      "priority": 1,
+      "priority_name": "HIGH",
+      "packet_size_bytes": 160,
+      "target_rate_kbps": 64,
+      "packets_per_second": 50,
+      "dscp": 46,
+      "tos": 184,
+      "queue_id": 0,
+      "max_acceptable_latency_ms": 30.0,
+      "max_acceptable_jitter_ms": 5.0,
+      "max_acceptable_loss_pct": 1.0
+    },
+    "video": {
+      "class_id": 2,
+      "description": "Video Streaming (medium-sized packets, steady flow)",
+      "port": 5002,
+      "priority": 2,
+      "priority_name": "MEDIUM",
+      "packet_size_bytes": 1024,
+      "target_rate_kbps": 2500,
+      "packets_per_second": 305,
+      "dscp": 34,
+      "tos": 136,
+      "queue_id": 1,
+      "max_acceptable_latency_ms": 100.0,
+      "max_acceptable_jitter_ms": 20.0,
+      "max_acceptable_loss_pct": 2.5
+    },
+    "bulk": {
+      "class_id": 3,
+      "description": "Bulk Data / File Transfer (large packets, best effort)",
+      "port": 5003,
+      "priority": 3,
+      "priority_name": "LOW",
+      "packet_size_bytes": 1400,
+      "target_rate_kbps": 2000,
+      "packets_per_second": 178,
+      "dscp": 0,
+      "tos": 0,
+      "queue_id": 2,
+      "max_acceptable_latency_ms": 300.0,
+      "max_acceptable_jitter_ms": 50.0,
+      "max_acceptable_loss_pct": 10.0
+    },
+    "congestion_flooder": {
+      "class_id": 4,
+      "description": "Controlled Heavy UDP Flooder to induce link congestion",
+      "port": 5004,
+      "priority": 4,
+      "priority_name": "UNPRIORITIZED",
+      "packet_size_bytes": 1400,
+      "target_rate_kbps": 10000,
+      "packets_per_second": 892,
+      "dscp": 0,
+      "tos": 0,
+      "queue_id": 2
+    }
+  },
+  "default_duration_seconds": 30
+}

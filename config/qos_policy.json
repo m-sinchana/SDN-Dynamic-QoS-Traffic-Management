@@ -1,0 +1,49 @@
+{
+  "network": {
+    "bottleneck_link_speed_mbps": 10.0,
+    "bottleneck_link_delay_ms": 10,
+    "bottleneck_max_queue": 100,
+    "switch_dpid": 1,
+    "bottleneck_port": 4
+  },
+  "queues": {
+    "queue_0": {
+      "id": 0,
+      "traffic_class": "voice",
+      "min_rate_kbps": 1000,
+      "max_rate_kbps": 10000,
+      "priority": 1,
+      "description": "High Priority - Expedited Forwarding"
+    },
+    "queue_1": {
+      "id": 1,
+      "traffic_class": "video",
+      "min_rate_kbps": 4000,
+      "max_rate_kbps": 8000,
+      "priority": 2,
+      "description": "Medium Priority - Assured Forwarding"
+    },
+    "queue_2": {
+      "id": 2,
+      "traffic_class": "bulk",
+      "min_rate_kbps": 500,
+      "max_rate_kbps": 5000,
+      "priority": 3,
+      "description": "Low Priority / Best Effort"
+    }
+  },
+  "congestion_policy": {
+    "default_adaptation_mode": "AUTO",
+    "poll_interval_seconds": 1.0,
+    "congestion_threshold_percent": 80.0,
+    "congestion_trigger_window_samples": 2,
+    "relax_threshold_percent": 60.0,
+    "hold_down_window_samples": 4,
+    "congested_bulk_meter_kbps": 1500,
+    "congested_bulk_burst_kbps": 2000
+  },
+  "ipc": {
+    "controller_host": "127.0.0.1",
+    "controller_ipc_port": 6634
+  }
+}

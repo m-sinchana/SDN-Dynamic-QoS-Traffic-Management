@@ -1,0 +1,75 @@
+{
+  "title": "Heavy Congestion (~136% Overload)",
+  "classes": [
+    "Voice",
+    "Video",
+    "Bulk"
+  ],
+  "baseline_csv": "heavy_congestion_baseline.csv",
+  "qos_csv": "heavy_congestion_qos.csv",
+  "timestamp": 1793520530.5357494,
+  "fifo": {
+    "voice": {
+      "class_name": "voice",
+      "port": "5001",
+      "throughput_mbps": 0.046,
+      "loss_percentage": 27.7,
+      "avg_latency_ms": 142.5,
+      "jitter_ms": 42.8,
+      "packets_received": 542,
+      "packets_lost": 0
+    },
+    "video": {
+      "class_name": "video",
+      "port": "5002",
+      "throughput_mbps": 1.81,
+      "loss_percentage": 27.6,
+      "avg_latency_ms": 148.0,
+      "jitter_ms": 46.2,
+      "packets_received": 6624,
+      "packets_lost": 0
+    },
+    "bulk": {
+      "class_name": "bulk",
+      "port": "5003",
+      "throughput_mbps": 2.165,
+      "loss_percentage": 27.8,
+      "avg_latency_ms": 154.0,
+      "jitter_ms": 51.5,
+      "packets_received": 2320,
+      "packets_lost": 0
+    }
+  },
+  "qos": {
+    "voice": {
+      "class_name": "voice",
+      "port": "5001",
+      "throughput_mbps": 0.064,
+      "loss_percentage": 0.0,
+      "avg_latency_ms": 11.4,
+      "jitter_ms": 0.82,
+      "packets_received": 750,
+      "packets_lost": 0
+    },
+    "video": {
+      "class_name": "video",
+      "port": "5002",
+      "throughput_mbps": 2.48,
+      "loss_percentage": 0.8,
+      "avg_latency_ms": 18.2,
+      "jitter_ms": 3.45,
+      "packets_received": 9076,
+      "packets_lost": 0
+    },
+    "bulk": {
+      "class_name": "bulk",
+      "port": "5003",
+      "throughput_mbps": 1.98,
+      "loss_percentage": 34.0,
+      "avg_latency_ms": 115.0,
+      "jitter_ms": 32.0,
+      "packets_received": 2121,
+      "packets_lost": 0
+    }
+  }
+}

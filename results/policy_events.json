@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1795007528.629813,
+    "iso_time": "2026-11-18 13:12:08",
+    "event_type": "CONTROLLER_STARTUP",
+    "reason": "SDN Controller initialized with baseline QoS policy",
+    "metric_name": "bottleneck_link_utilization",
+    "metric_value": 0.0,
+    "threshold": 80.0,
+    "previous_policy": "NONE",
+    "new_policy": "STANDARD_QOS",
+    "qos_mode": "QOS",
+    "affected_classes": [
+      "VOICE (Q0)",
+      "VIDEO (Q1)",
+      "BULK (Q2)"
+    ],
+    "queue_mapping": {
+      "voice": "Queue 0 (Strict Priority / Guaranteed 1 Mbps)",
+      "video": "Queue 1 (Assured Forwarding / Guaranteed 4 Mbps)",
+      "bulk": "Queue 2 (Normal Best Effort)"
+    }
+  },
+  {
+    "id": 2,
+    "timestamp": 1795007738.7658224,
+    "iso_time": "2026-11-18 13:15:38",
+    "event_type": "CONGESTION_TRIGGERED",
+    "reason": "Bottleneck link utilization (100.0%) crossed 80.0% threshold for 2 consecutive measurement windows.",
+    "metric_name": "bottleneck_link_utilization",
+    "metric_value": 99.98,
+    "threshold": 80.0,
+    "previous_policy": "NORMAL",
+    "new_policy": "CONGESTION_PRIORITY_THROTTLE_BULK",
+    "qos_mode": "QOS",
+    "affected_classes": [
+      "VOICE (Q0)",
+      "VIDEO (Q1)",
+      "BULK (Q2)"
+    ],
+    "queue_mapping": {
+      "voice": "Queue 0 (Strict Priority / Guaranteed 1 Mbps)",
+      "video": "Queue 1 (Assured Forwarding / Guaranteed 4 Mbps)",
+      "bulk": "Queue 2 (Throttled)"
+    }
+  },
+  {
+    "id": 3,
+    "timestamp": 1795007770.889332,
+    "iso_time": "2026-11-18 13:16:10",
+    "event_type": "CONGESTION_CLEARED",
+    "reason": "Bottleneck link utilization (0.0%) normalized below 60.0% for 4 consecutive hold-down windows.",
+    "metric_name": "bottleneck_link_utilization",
+    "metric_value": 0.0,
+    "threshold": 60.0,
+    "previous_policy": "CONGESTED",
+    "new_policy": "STANDARD_QOS",
+    "qos_mode": "QOS",
+    "affected_classes": [
+      "VOICE (Q0)",
+      "VIDEO (Q1)",
+      "BULK (Q2)"
+    ],
+    "queue_mapping": {
+      "voice": "Queue 0 (Strict Priority / Guaranteed 1 Mbps)",
+      "video": "Queue 1 (Assured Forwarding / Guaranteed 4 Mbps)",
+      "bulk": "Queue 2 (Normal Best Effort)"
+    }
+  },
+  {
+    "id": 4,
+    "timestamp": 1795008069.5595822,
+    "iso_time": "2026-11-18 13:21:09",
+    "event_type": "CONGESTION_TRIGGERED",
+    "reason": "Bottleneck link utilization (82.7%) crossed 80.0% threshold for 2 consecutive measurement windows.",
+    "metric_name": "bottleneck_link_utilization",
+    "metric_value": 82.69,
+    "threshold": 80.0,
+    "previous_policy": "NORMAL",
+    "new_policy": "CONGESTION_PRIORITY_THROTTLE_BULK",
+    "qos_mode": "QOS",
+    "affected_classes": [
+      "VOICE (Q0)",
+      "VIDEO (Q1)",
+      "BULK (Q2)"
+    ],
+    "queue_mapping": {
+      "voice": "Queue 0 (Strict Priority / Guaranteed 1 Mbps)",
+      "video": "Queue 1 (Assured Forwarding / Guaranteed 4 Mbps)",
+      "bulk": "Queue 2 (Throttled)"
+    }
+  },
+  {
+    "id": 5,
+    "timestamp": 1795008123.7580583,
+    "iso_time": "2026-11-18 13:22:03",
+    "event_type": "CONGESTION_CLEARED",
+    "reason": "Bottleneck link utilization (0.0%) normalized below 60.0% for 4 consecutive hold-down windows.",
+    "metric_name": "bottleneck_link_utilization",
+    "metric_value": 0.0,
+    "threshold": 60.0,
+    "previous_policy": "CONGESTED",
+    "new_policy": "STANDARD_QOS",
+    "qos_mode": "QOS",
+    "affected_classes": [
+      "VOICE (Q0)",
+      "VIDEO (Q1)",
+      "BULK (Q2)"
+    ],
+    "queue_mapping": {
+      "voice": "Queue 0 (Strict Priority / Guaranteed 1 Mbps)",
+      "video": "Queue 1 (Assured Forwarding / Guaranteed 4 Mbps)",
+      "bulk": "Queue 2 (Normal Best Effort)"
+    }
+  }
+]
