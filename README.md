@@ -1,4 +1,4 @@
-# ⚡ SDN Dynamic QoS Traffic Management System
+#  SDN Dynamic QoS Traffic Management System
 
 **An adaptive network traffic management system using Software-Defined Networking (SDN) and UDP.**
 
